@@ -1,0 +1,242 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        margin: 0 1rem;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      main {
+        padding-top: 60px;
+      }
+
+      section {
+        padding: 4rem 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      h1,
+      h2 {
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      #home {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 6rem 2rem;
+      }
+
+      #home h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      #skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      #skills li {
+        background-color: #333;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+      }
+
+      #education li {
+        margin-bottom: 1rem;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        margin-top: 1rem;
+      }
+
+      input,
+      textarea {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #555;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+      }
+
+      
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header style="position: relative">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <img
+          src="./70b8df7a0f6d9c2ef54e1041255462af.png"
+          style="height: 400px"
+          alt=""
+        />
+        <h1>Welcome to My Portfolio</h1>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          My name is Sakib Mansuri, and I am currently pursuing a Bachelor's
+          degree in Computer and Information Technology from Shreyarth
+          University. I am passionate about learning new technologies and
+          developing practical solutions through programming and web
+          development. My academic journey has equipped me with a strong
+          foundation in IT concepts, and I am eager to apply my knowledge to
+          real-world projects while continuing to grow and evolve as a
+          professional.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>C language</li>
+          <li>Communication</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>S.C.C</h3>
+            <b><p>March 2022</p></b>
+            <p>Gujarat Secondary and Higher Secondary Education Board</p>
+          </li>
+          <li>
+            <h3>H.S.C</h3>
+            <b><p>March 2024</p></b>
+            <p>Gujarat Secondary and Higher Secondary Education Board</p>
+          </li>
+          <li>
+            <h3>I.M.S.C</h3>
+            <p>Currently Persuing from Shreyarth University.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Cricket</li>
+          <li>Kabaddi</li>
+          <li>Playing Board Games</li>
+        </ul>
+      </section>
+
+      <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+          <li>Learning various Technologies</li>
+          <li>A.I Tools</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
